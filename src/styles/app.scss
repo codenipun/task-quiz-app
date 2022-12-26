@@ -1,0 +1,92 @@
+.mainContainer{
+    background-color: rgb(134, 133, 216);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+    
+}
+
+.quizContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+}
+
+.progressCotainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+.myprogress{
+    width: 170px;
+}
+
+
+.percentage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: black;
+    border-radius: 20px;
+    width: 40px;
+
+    >p{
+        text-align: center;
+        height: 100%;
+        font-weight: 500;
+        margin-top: 8px;
+        color: white;
+    }
+}
+
+.qcnt{
+    font-weight: 500;
+    font-size: 23px;
+    background-color: blue;
+    color: white;
+    border-radius: 1rem;
+    padding: 5px;
+}
+.quizend{
+    font-weight: 500;
+}
+
+.optionContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.option{
+    width: 200px;
+    margin: 5px;
+    border: none;
+    background-color: rgb(200, 200, 200);
+    border-radius: 5px;
+    padding: 3px;
+    display: flex;
+    padding-left: 10px;
+    font-weight: 500;
+
+    &:hover{
+        background-color: blue;
+        transform: scale(1.05);
+    }
+}
+
+.questionContainer{
+    width: 470px;
+    >h2{
+        margin-top: 10px;
+        
+    }
+}
